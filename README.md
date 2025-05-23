@@ -40,17 +40,31 @@ A relational database and web interface for managing venomous snake data.
 
 ## File Structure
 /what_the_snake/
+
+├──what_the_snake_background.png # Background image
+
 ├── index.php # Dashboard landing page
+
 ├── login.php # Manager login form
+
 ├── logout.php # Ends session and clears login
+
 ├── snake_add.html # Web form to submit new snake
+
 ├── snake_view.php # Public read-only view of snakes
+
 ├── ajax_snake.php # Editable AJAX interface (manager only)
+
 ├── snake_crud.php # PHP logic for insert, update, delete
+
 ├── statisicis_windows_.php # SQL statistics and window function display
+
 ├── ajax_snake.js # AJAX request handlers
+
 ├── style.css # Project styling (Art Nouveau inspired)
+
 ├── /images/ # Uploaded snake images
+
 └── README.md # Project documentation
 
 
@@ -132,5 +146,9 @@ Some code troubleshooting, formatting, and integration guidance was supported us
 Inspired by the fictional COBRA organization from G.I. Joe and the conservation legacy of Steve Irwin.
 Created for academic purposes at University of Oklahoma Polytechnic Institute.
 
+## Design Credits
 
+The background image used in this project was custom illustrated by the project author in a **Dark Art Nouveau** style. It incorporates organic motifs and structured symmetry to reflect the natural themes of the database.
+
+The piece is signed under the artist’s name, **CarpeOssa**, and was designed specifically for this application. Please do not reuse or republish the artwork without permission.
 
